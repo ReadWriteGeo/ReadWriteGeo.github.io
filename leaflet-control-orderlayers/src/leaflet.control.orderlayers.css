@@ -1,0 +1,36 @@
+.leaflet-control-layers {
+	font-size: 1.2em;
+}
+
+.leaflet-control-layers .leaflet-row {
+}
+
+.leaflet-control-layers .leaflet-control-layers-title {
+	font-size: 1.2em;
+	margin: 0;
+}
+
+.leaflet-control-layers .leaflet-name {
+	margin: 0 0 0 5px;
+}
+
+.leaflet-control-layers .leaflet-icon{
+	margin: 0 0 0 5px;
+}
+
+.leaflet-control-layers .leaflet-opacity-value {
+}
+
+.leaflet-control-layers-separator {
+	float: left;
+	width: 100%;
+	margin: 0px;
+}
+
+.fa-padding {
+	padding: 0 10px;
+}
+
+.fa-inverse {
+	color: #E0E0E0;
+}
