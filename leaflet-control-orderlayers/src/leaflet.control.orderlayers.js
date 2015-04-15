@@ -176,17 +176,17 @@ L.Control.OrderLayers = L.Control.Layers.extend({
 		if (this.options.opacity) {
 			var col;
 			var opacity_value = this._getOpacity(obj).lyOp/this._getOpacity(obj).lyN;
-	
+
 			col = L.DomUtil.create('span', isNaN(opacity_value)? 'fa fa-ban fa-inverse fa-padding' : 'fa fa-minus-square-o fa-padding');
 			col.title = isNaN(opacity_value)? '':'Lessen Layer Opacity';
 			col.layerId = input.layerId;
 			L.DomEvent.on(col, 'click', this._onLowerOpacityClick, this);
 			row.appendChild(col);
-	
+
 			col = L.DomUtil.create('span', isNaN(opacity_value)? 'fa-inverse leaflet-opacity-value' : 'leaflet-opacity-value');
 			col.innerHTML = isNaN(opacity_value)? '#.##' : opacity_value.toFixed(2);
 			row.appendChild(col);
-	
+
 			col = L.DomUtil.create('span', isNaN(opacity_value)? 'fa fa-ban fa-inverse fa-padding' : 'fa fa-plus-square fa-padding');
 			col.title = isNaN(opacity_value)? '':'Increase Layer Opacity';
 			col.layerId = input.layerId;
