@@ -1,5 +1,7 @@
 .leaflet-control-layers {
-	font-size: 1.2em;
+	/*font-size: 1.2em;*/
+	font-size: 62.5%;
+	font-size: 1.2rem;
 }
 
 .leaflet-control-layers .leaflet-row {
