@@ -80,7 +80,7 @@
 			zoomControl: false
 		});
 
-		var control = L.control.layers(baseLayers, overlayLayers, {collapsed: true}).addTo(map);
+		var control = L.control.layers(baseLayers, overlayLayers, {collapsed: false}).addTo(map);
 
 		var controls = L.control.orderlayers(baseLayers, overlayLayers, {collapsed: true, title: '', opacity: true, increment: 0.1});
 		controls.addTo(map);
