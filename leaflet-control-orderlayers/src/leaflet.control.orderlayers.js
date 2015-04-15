@@ -58,6 +58,7 @@ L.Control.OrderLayers = L.Control.Layers.extend({
 			var link = this._layersLink = L.DomUtil.create('a', className + '-toggle', container);
 			link.href = '#';
 			link.title = 'Layers';
+			link.innerHTML = '<i class="fa fa-sort"></i>';
 
 			if (L.Browser.touch) {
 				L.DomEvent
