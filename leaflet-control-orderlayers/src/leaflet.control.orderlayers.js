@@ -58,7 +58,7 @@ L.Control.OrderLayers = L.Control.Layers.extend({
 			var link = this._layersLink = L.DomUtil.create('a', className + '-toggle', container);
 			link.href = '#';
 			link.title = 'Layers';
-			link.innerHTML = '<i class="fa fa-sort"></i>';
+			link.innerHTML = '<i class="fa fa-sort"></i><i class="fa fa-adjust leaflet-bottom leaflet-right"></i>';
 
 			if (L.Browser.touch) {
 				L.DomEvent
