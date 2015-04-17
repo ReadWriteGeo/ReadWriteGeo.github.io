@@ -2,12 +2,12 @@
 	font-size: 1.2em;
 }
 
-.leaflet-retina  .leaflet-control-layers {
+.leaflet-retina .leaflet-control-layers {
 	font-size: 1.0em;
 }
 
 .leaflet-touch .leaflet-control-layers {
-	font-size: 1.44em;
+	font-size: 2em;
 }
 
 .leaflet-control-layers .leaflet-row {
